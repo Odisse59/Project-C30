@@ -84,7 +84,9 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(rgb(146, 227, 102));
-
+  textSize(20)
+  text("Press Space To Reset The Polygon",400,50)
+  
   ground.display()
   miniG.display()
   miniG2.display()
